@@ -1,0 +1,160 @@
+body{
+  overflow-x: hidden;
+}
+h2{
+  font-size: 1.4em;
+}
+nav{
+  height: 60px;
+  background-color: grey;
+  width: auto;
+}
+ul{
+  padding: 20px;
+
+}
+.logo{
+
+  background-color: white;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}
+.hero{
+  background-image: url(images/th-gorilla11.jpg);
+  height: 400px;
+  width: 100%;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+.titleimage{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2em;
+}
+.title{
+  padding: 50px 0px;
+  text-align: center;
+  color: black;
+}
+.center{
+  column-count: 3;
+  column-gap: 40px;
+  column-rule-style: solid;
+  padding: 15px;
+}
+.columntitle{
+  font-size: 1.4em;
+  column-span: all;
+  margin: 15px 0px;
+}
+.expli{
+  text-align: justify;
+}
+.backgroundattachment{
+  background-image: url(images/th-gorilla11.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+}
+
+.pg{
+  display: flex;
+  align-items: center;
+  height: 400px;
+  width: 400px;
+  justify-content: space-around;
+  padding-left: 20px;
+  padding-right: 20px;
+
+
+}
+.textlist{
+  text-align: center;
+  vertical-align: middle;
+  height: 300px;
+  width: 100%;
+}
+
+.block{
+  height: 200px;
+  width: 200px;
+  background-color: black;
+  margin-left: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 5px;
+  }
+.listblock{
+  display: flex;
+  flex-wrap: wrap;
+}
+.logo_img{
+  margin: 5px;
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  float: left;
+}
+.text{
+color: white;
+}
+.button-cont{
+  display: flex;
+  align-content: flex-end;
+  flex-direction: row-reverse;
+  margin-right: 10px;
+}
+.button {
+
+  background-color: red; /* Green */
+  border: none;
+  color: white;
+vertical-align: middle;
+text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  height: 50px;
+  width: 80px;
+}
+.gorilla10{
+  width: 800px;
+  height: 400px;
+  float: left;
+}
+
+footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100px;
+  background-color: black;
+  color: white;
+
+
+}
+.textfooter{
+  padding: 15px;
+
+
+}
+.gorilla06{
+  float: left;
+  width: 250px;
+  height: 150px;
+
+}
+.divpicture{
+  text-align: center;
+}
+picture{
+  text-align: center;
+
+}
