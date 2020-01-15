@@ -2,3 +2,351 @@
 @import "typo.css";
 @import "layout.css";
 @import "main.css";
+
+header{
+    height: 50px;
+}
+
+.menu-toggle .burger-breads span{
+    display: none;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    background:black;
+    z-index: 1;
+}
+
+.menu-close .burger-breads span{
+    display: none;
+    width: 33px;
+    height: 4px;
+    margin-bottom: 5px;
+    position: relative;
+    border-radius: 3px;
+    z-index: 1;
+    transform: rotate(45deg) translate(-2px,1px);
+    background: rgb(127,140,167);
+}
+.menu-close .burger-breads span:nth-child(2){
+    transform: rotate(135deg) translate(-6px, 9px);
+    }
+.menu-close .burger-breads span:nth-child(3){
+    opacity: 0;
+    }
+/* Style */
+.menu-toggle {
+    display: inline-block;
+    padding: 1em;
+  }
+  .main-menu {
+    position: absolute;
+    top: 0;
+    bottom:0;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: visible;
+    transition: left 0.3s ease, box-shadow 0.3s ease;
+    z-index: 999;
+  }
+  .main-menu ul {
+    margin: 0;
+    padding: 2.5em 0 0;
+    min-height: 100%;
+    width: 200px;
+    background: (41,46,56);
+    align-items: center;
+    text-align: center;
+  }
+  .main-menu a {
+    display: block;
+    padding: .75em 15px;
+    line-height: 1em;
+    font-size:1em;
+    color:red;
+
+    text-decoration: none;
+    border-bottom: 1px solid rgb(127,140,167);
+  }
+  .main-menu li:first-child a {
+      border-top: 1px solid rgb(127,140,167) ;
+      
+  }
+
+  .main-menu a:hover,.main-menu a:focus{
+      background: #333;
+      text-decoration: underline;
+  }
+
+  .main-menu .menu-close{
+      position: absolute;
+      right: 0;
+      top: 0;
+      border-bottom: 1px solid transparent;
+  }
+  .main-menu{
+      
+      left: -200px;
+  }
+
+  .main-menu:target{
+     
+      left: 0;
+      outline: none;
+      box-shadow: 3px 0 12px rgb(0,0,0,.25);
+
+  }
+.navnores{
+    margin-left: 50%;
+position: absolute;
+    display: flex;
+    width: 33px;
+    height: 4px;
+    align-items: center;
+    justify-content: center;
+
+}
+  .lienbar{
+      margin-left: 50px;
+      margin-right: 50px;
+      margin-top: 20px;
+ 
+      color: black;
+  }
+.contai{
+  
+    list-style: none;
+}
+
+.lienbar:hover{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    border-bottom: black solid 1px;
+    color: black;
+}
+
+@media (min-width:1280px){
+    .title{
+      background: gray;
+    }
+   
+    
+  }
+  @media (min-width:481px) and (max-width:767px){
+      .title{
+        background: green;
+      }
+      .menu-toggle .burger-breads span{
+        display: block;
+        width: 33px;
+        height: 4px;
+        margin-bottom: 5px;
+        position: relative;
+        background:black;
+        z-index: 1;
+    }
+    
+    .menu-close .burger-breads span{
+        display: block;
+        width: 33px;
+        height: 4px;
+        margin-bottom: 5px;
+        position: relative;
+        border-radius: 3px;
+        z-index: 1;
+        transform: rotate(45deg) translate(-2px,1px);
+        background: rgb(127,140,167);
+    }
+    .menu-close .burger-breads span:nth-child(2){
+        transform: rotate(135deg) translate(-6px, 9px);
+        }
+    .menu-close .burger-breads span:nth-child(3){
+        opacity: 0;
+        }
+    /* Style */
+    .menu-toggle {
+        display: inline-block;
+        padding: 1em;
+      }
+      .main-menu {
+        position: absolute;
+        top: 0;
+        bottom:0;
+        height: 100%;
+        overflow-y: scroll;
+        overflow-x: visible;
+        transition: left 0.3s ease, box-shadow 0.3s ease;
+        z-index: 999;
+      }
+      .main-menu ul {
+        margin: 0;
+        padding: 2.5em 0 0;
+        min-height: 100%;
+        width: 200px;
+        background: (41,46,56);
+        align-items: center;
+        text-align: center;
+      }
+      .main-menu a {
+        display: block;
+        padding: .75em 15px;
+        line-height: 1em;
+        font-size:1em;
+        color:red;
+    
+        text-decoration: none;
+        border-bottom: 1px solid rgb(127,140,167);
+      }
+      .main-menu li:first-child a {
+          border-top: 1px solid rgb(127,140,167) ;
+          
+      }
+    
+      .main-menu a:hover,.main-menu a:focus{
+          background: #333;
+          text-decoration: underline;
+      }
+    
+      .main-menu .menu-close{
+          position: absolute;
+          right: 0;
+          top: 0;
+          border-bottom: 1px solid transparent;
+      }
+      .main-menu{
+          
+          left: -200px;
+      }
+    
+      .main-menu:target{
+         
+          left: 0;
+          outline: none;
+          box-shadow: 3px 0 12px rgb(0,0,0,.25);
+    
+      }
+      .navnores{
+        margin-left: 50%;
+    position: absolute;
+        display: none;
+        width: 33px;
+        height: 4px;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    }
+    @media (min-width:768px) and (max-width:1024px){
+      .title{
+        background: yellow;
+      }
+      .menu-toggle .burger-breads span{
+        display: block;
+        width: 33px;
+        height: 4px;
+        margin-bottom: 5px;
+        position: relative;
+        background:black;
+        z-index: 1;
+    }
+    
+    .menu-close .burger-breads span{
+        display: block;
+        width: 33px;
+        height: 4px;
+        margin-bottom: 5px;
+        position: relative;
+        border-radius: 3px;
+        z-index: 1;
+        transform: rotate(45deg) translate(-2px,1px);
+        background: rgb(127,140,167);
+    }
+    .menu-close .burger-breads span:nth-child(2){
+        transform: rotate(135deg) translate(-6px, 9px);
+        }
+    .menu-close .burger-breads span:nth-child(3){
+        opacity: 0;
+        }
+    /* Style */
+    .menu-toggle {
+        display: inline-block;
+        padding: 1em;
+      }
+      .main-menu {
+        position: absolute;
+        top: 0;
+        bottom:0;
+        height: 100%;
+        overflow-y: scroll;
+        overflow-x: visible;
+        transition: left 0.3s ease, box-shadow 0.3s ease;
+        z-index: 999;
+      }
+      .main-menu ul {
+        margin: 0;
+        padding: 2.5em 0 0;
+        min-height: 100%;
+        width: 200px;
+        background: (41,46,56);
+        align-items: center;
+        text-align: center;
+      }
+      .main-menu a {
+        display: block;
+        padding: .75em 15px;
+        line-height: 1em;
+        font-size:1em;
+        color:red;
+    
+        text-decoration: none;
+        border-bottom: 1px solid rgb(127,140,167);
+      }
+      .main-menu li:first-child a {
+          border-top: 1px solid rgb(127,140,167) ;
+          
+      }
+    
+      .main-menu a:hover,.main-menu a:focus{
+          background: #333;
+          text-decoration: underline;
+      }
+    
+      .main-menu .menu-close{
+          position: absolute;
+          right: 0;
+          top: 0;
+          border-bottom: 1px solid transparent;
+      }
+      .main-menu{
+          
+          left: -200px;
+      }
+    
+      .main-menu:target{
+         
+          left: 0;
+          outline: none;
+          box-shadow: 3px 0 12px rgb(0,0,0,.25);
+    
+      }
+      .navnores{
+          margin-left: 50%;
+      position: absolute;
+          display: none;
+          width: 33px;
+          height: 4px;
+          align-items: center;
+          justify-content: center;
+      
+      }
+      
+    }
+    @media (min-width:1025px) and (max-width:1280px){
+      .title{
+        background: red;
+      }
+     
+    }
+    
+  

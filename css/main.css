@@ -23,25 +23,31 @@ a{
   text-decoration: none;
 }
 .hero{
-  background-image: url(images/th-gorilla11.jpg);
+  background-image: url(images/th-gorilla15.jpg);
   height: 400px;
   width: 100%;
   color: white;
   background-repeat: no-repeat;
   background-size: cover;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .titleimage{
-  position: absolute;
+  border: solid black 2px;
+  padding: 30px;
   top: 25%;
   left: 50%;
-  transform: translate(-50%, -50%);
+ 
   font-size: 2em;
 }
 .title{
   padding: 50px 0px;
   text-align: center;
   color: black;
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 .center{
   column-count: 3;
@@ -111,13 +117,16 @@ color: white;
   align-content: flex-end;
   flex-direction: row-reverse;
   margin-right: 10px;
+ 
 }
 .button {
-
-  background-color: red; /* Green */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red; 
   border: none;
   color: white;
-vertical-align: middle;
+text-align: justify;
 text-align: center;
   text-decoration: none;
   font-size: 16px;
