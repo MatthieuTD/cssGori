@@ -40,3 +40,21 @@ margin-bottom: 10px;
    
    
 }
+
+.imgfooter{
+    
+    height: 100px;
+    width: 150px;
+    animation: mymove 4s infinite;
+}
+@keyframes mymove {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+.imgfooter:hover{
+    transform: rotate(360deg);
+    transition: transform 1s;
+ 
+   
+}
