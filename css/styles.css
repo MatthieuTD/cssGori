@@ -97,7 +97,7 @@ header{
 
   }
 .navnores{
-    margin-left: 50%;
+    margin-left: 47%;
 position: absolute;
     display: flex;
     width: 33px;
@@ -350,3 +350,9 @@ position: absolute;
     }
     
   
+    .imgfooter{
+      margin-top: 10px;
+      height: 100px;
+      width: 150px;
+      animation: mymove 4s infinite;
+  }
