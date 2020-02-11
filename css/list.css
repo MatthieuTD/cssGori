@@ -8,8 +8,8 @@ section{
 .bloGo{
     display: inline-block;
     align-items: center;
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
     text-align: center;
    margin-bottom: 50px;
    margin-top: 50px; 
@@ -23,7 +23,7 @@ section{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .comment{
-width: 300px;
+width: 400px;
 text-align: justify;
 margin-bottom: 10px;
 }
